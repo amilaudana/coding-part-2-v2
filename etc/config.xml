@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/config.xsd">
+    <default>
+        <livechat>
+            <general>
+                <license></license>
+            </general>
+            <advanced>
+                <group>0</group>
+                <params></params>
+            </advanced>
+        </livechat>
+    </default>
+</config>
