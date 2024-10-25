@@ -1,37 +1,23 @@
 {
-    "name": "amilaudana/coding-part-2-v2",
-    "description": "A Magento 2 LiveChat module for Aligent.",
+    "name": "aligent/livechat-config",
+    "description": "Magento 2 LiveChat configuration module",
     "type": "magento2-module",
-    "version": "1.0.0",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Amila Udana",
-            "email": "amilaudana@gmail.com"
-        }
-    ],
     "require": {
-        "php": "^8.0",
-        "magento/framework": ">=102.0.0 <104.0.0",
-        "magento/module-backend": ">=100.2.0 <104.0.0",
-        "magento/module-ui": ">=100.2.0 <104.0.0"
+        "php": ">=8.2",
+        "magento/framework": "^103.0"
     },
     "autoload": {
-        "psr-4": {
-            "Aligent\\LiveChat\\": ""
-        },
         "files": [
             "registration.php"
-        ]
+        ],
+        "psr-4": {
+            "Aligent\\LiveChatConfig\\": ""
+        }
     },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Aligent/LiveChatConfig"
-            ]
-        ]
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/amilaudana/coding-part-2-v2"
+        }
+    ]
 }
