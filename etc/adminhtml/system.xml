@@ -13,6 +13,7 @@
                 <field id="license" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Live Chat License Number</label>
                     <validate>required-entry</validate>
+                    <backend_model>Aligent\LiveChatConfig\Model\Config\Backend\Encrypted</backend_model>
                 </field>
             </group>
 
