@@ -1,7 +1,7 @@
 ## LiveChat Configuration Module
 This Magento 2 module enables configuration for LiveChat directly from the Magento admin panel. It allows you to configure the LiveChat license number, groups, and parameters, with validations applied to ensure correct inputs.
 
-###Features
+### Features
 Configuration fields for LiveChat license, groups, and parameters.
 Input validation, including license number format and group selection.
 The configurations are saved via Magento's system configuration mechanism using system.xml.
