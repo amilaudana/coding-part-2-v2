@@ -2,14 +2,13 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <!-- Define the new "Aligent" main tab -->
         <tab id="aligent" translate="label" sortOrder="200">
             <label>Aligent</label>
         </tab>
 
         <section id="livechat" translate="label" sortOrder="210" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Live Chat Configuration</label>
-            <tab>aligent</tab> 
+            <tab>aligent</tab>
             <resource>Aligent_LiveChatConfig::config</resource>
 
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
