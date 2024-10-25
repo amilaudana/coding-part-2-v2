@@ -10,22 +10,16 @@ The configurations are saved via Magento's system configuration mechanism using 
 1. Add the Repository to Composer. First, add the GitHub repository to your Composer configuration:
 
 ``` 
-composer config repositories.aligent_live_chat vcs https://github.com/amilaudana/coding-part-2-v2
+git clone https://github.com/amilaudana/coding-part-2-v2.git app/code/Aligent/LiveChatConfig
 ``` 
-2. Install the Module. Once the repository is added, install the module using:
-
-``` 
-composer require amilaudana/coding-part-2-v2:dev-main
-``` 
-
-3. Enable the Module. After installation, enable the module and run the Magento setup commands:
+2. Enable the Module. After installation, enable the module and run the Magento setup commands:
 
 ``` 
 php bin/magento module:enable Aligent_LiveChatConfig
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 ```
-4. Clear Magento Cache. Once enabled, make sure to flush the cache to apply the changes:
+3. Clear Magento Cache. Once enabled, make sure to flush the cache to apply the changes:
 
 ``` 
 php bin/magento cache:flush
